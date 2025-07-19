@@ -1,0 +1,173 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* The designs were created to the following widths */
+
+    --desktop-width: 1440px;
+
+    /* primary colors  */
+
+    --Blue-600: hsl(231, 69%, 60%);
+    --Red-400: hsl(0, 94%, 66%);
+
+    /* Neutral colors  */
+
+    --Grey-50: hsl(0, 0%, 97%);
+    --Blue-950: hsl(229, 31%, 21%);
+
+    /* Typography */
+    --Font-size: 18px;
+    --Weights1: 400;
+    --Weights1: 500;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    /* border: 2px solid black ; */
+    padding: 10px 60px 0 150px ;
+    margin-bottom: 25vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 490px;
+}
+
+nav ul li {
+    color: var(--Blue-950);
+    list-style: none;
+    font-size:14px;
+    font-weight: 600;
+
+}
+
+nav button{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--Red-400);
+    border: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 20vh;
+}
+
+.hero-content{
+  /* border: 2px solid black ; */
+   display: flex;
+   flex-direction: column;
+   /* align-items: start; */
+   gap: 50px;
+
+}
+
+.hero-content h2{
+    color: var(--Blue-950);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero-content p{
+    /* border: 2px solid black ; */
+    font-size:15px;
+    color:gray;
+}
+.hero-content button{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--Blue-600);
+    border: none;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 70px;
+}
+
+.section2-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section2-div1 h4{
+    text-align: center;
+    font-size: 25px;
+    color: var(--Blue-950);
+}
+
+.section2-div1 p{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 380;
+}
+
+.section2-div1 ul{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+  gap: 50px;
+}
+
+.section2-div1 ul li{
+    list-style: none;
+    color: var(--Blue-950);
+    font-weight: 500;
+    font-size: 14px;  
+}
+
+.section2-div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130px;
+}
+
+.sect2-subdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-right: 150px;
+}
+
+.section2-div2 h3{
+    text-align: center;
+    font-size: 25px;
+    color: var(--Blue-950);
+}
+
+.section2-div2 p{
+    text-align:start;
+    font-size: 14px;
+    color:gray;
+}
+
+.section2-div2 button{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--Blue-600);
+    border: none;
+}
+
+
+
+
