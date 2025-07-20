@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* The designs were created to the following widths */
+
+    --desktop-width: 1440px;
+
+    /* primary colors  */
+
+    --Blue-600: hsl(231, 69%, 60%);
+    --Red-400: hsl(0, 94%, 66%);
+
+    /* Neutral colors  */
+
+    --Grey-50: hsl(0, 0%, 97%);
+    --Blue-950: hsl(229, 31%, 21%);
+
+    /* Typography */
+    --Font-size: 18px;
+    --Weights1: 400;
+    --Weights1: 500;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+   padding-top: 50px;
+}
+
+.hero-div1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.hero-div1 ul li{
+    list-style: none;
+    color: var(--Blue-950);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero-div2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.subdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+
+.subdiv h3{
+    color: var(--Blue-950);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.subdiv p{
+    color: grey;
+    font-weight: 400;
+}
+
+.subdiv button{
+    padding: 10px 15px;
+    background-color: var(--Blue-600);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
